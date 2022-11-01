@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26A8C10E26E1571E00F4A58D /* wav2vec2.ptl in Resources */ = {isa = PBXBuildFile; fileRef = 26A8C10D26E1571D00F4A58D /* wav2vec2.ptl */; };
+		04A1C755290FB4AD0046F68B /* wav2vec2.ptl in Resources */ = {isa = PBXBuildFile; fileRef = 04A1C754290FB4AC0046F68B /* wav2vec2.ptl */; };
 		26B208D826127FAD00B597CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B208D726127FAD00B597CB /* AppDelegate.swift */; };
 		26B208DA26127FAD00B597CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B208D926127FAD00B597CB /* SceneDelegate.swift */; };
 		26B208DC26127FAD00B597CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B208DB26127FAD00B597CB /* ViewController.swift */; };
@@ -18,10 +18,12 @@
 		26B208FB261284C700B597CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B208FA261284C700B597CB /* AVFoundation.framework */; };
 		26B208FD261284CF00B597CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B208FC261284CF00B597CB /* AudioToolbox.framework */; };
 		26B208FF261284D700B597CB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B208FE261284D700B597CB /* Accelerate.framework */; };
+		2ACAF03AAE6B79EB39A2A98A /* Pods_SpeechRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983F7CA822FAD342ED7651D3 /* Pods_SpeechRecognition.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26A8C10D26E1571D00F4A58D /* wav2vec2.ptl */ = {isa = PBXFileReference; lastKnownFileType = file; path = wav2vec2.ptl; sourceTree = "<group>"; };
+		04A1C754290FB4AC0046F68B /* wav2vec2.ptl */ = {isa = PBXFileReference; lastKnownFileType = file; path = wav2vec2.ptl; sourceTree = "<group>"; };
+		15E65A71AAFE174BFB0F15F8 /* Pods-SpeechRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognition.release.xcconfig"; path = "Target Support Files/Pods-SpeechRecognition/Pods-SpeechRecognition.release.xcconfig"; sourceTree = "<group>"; };
 		26B208D426127FAD00B597CB /* SpeechRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B208D726127FAD00B597CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B208D926127FAD00B597CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		26B208FA261284C700B597CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		26B208FC261284CF00B597CB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		26B208FE261284D700B597CB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8B4BB47FC8400A6D2D4082F7 /* Pods-SpeechRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechRecognition.debug.xcconfig"; path = "Target Support Files/Pods-SpeechRecognition/Pods-SpeechRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		983F7CA822FAD342ED7651D3 /* Pods_SpeechRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeechRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 				26B208FF261284D700B597CB /* Accelerate.framework in Frameworks */,
 				26B208FD261284CF00B597CB /* AudioToolbox.framework in Frameworks */,
 				26B208FB261284C700B597CB /* AVFoundation.framework in Frameworks */,
+				2ACAF03AAE6B79EB39A2A98A /* Pods_SpeechRecognition.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +88,7 @@
 				26B208E026127FAE00B597CB /* Assets.xcassets */,
 				26B208E226127FAE00B597CB /* LaunchScreen.storyboard */,
 				26B208E526127FAE00B597CB /* Info.plist */,
-				26A8C10D26E1571D00F4A58D /* wav2vec2.ptl */,
+				04A1C754290FB4AC0046F68B /* wav2vec2.ptl */,
 			);
 			path = SpeechRecognition;
 			sourceTree = "<group>";
@@ -91,6 +96,8 @@
 		4D6D8FA08BEAA3511106DA23 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				8B4BB47FC8400A6D2D4082F7 /* Pods-SpeechRecognition.debug.xcconfig */,
+				15E65A71AAFE174BFB0F15F8 /* Pods-SpeechRecognition.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,6 +108,7 @@
 				26B208FE261284D700B597CB /* Accelerate.framework */,
 				26B208FC261284CF00B597CB /* AudioToolbox.framework */,
 				26B208FA261284C700B597CB /* AVFoundation.framework */,
+				983F7CA822FAD342ED7651D3 /* Pods_SpeechRecognition.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26B208E826127FAE00B597CB /* Build configuration list for PBXNativeTarget "SpeechRecognition" */;
 			buildPhases = (
+				79B5B3640C6057E710A9AC61 /* [CP] Check Pods Manifest.lock */,
 				26B208D026127FAD00B597CB /* Sources */,
 				26B208D126127FAD00B597CB /* Frameworks */,
 				26B208D226127FAD00B597CB /* Resources */,
@@ -164,13 +173,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B208E426127FAE00B597CB /* LaunchScreen.storyboard in Resources */,
-				26A8C10E26E1571E00F4A58D /* wav2vec2.ptl in Resources */,
 				26B208E126127FAE00B597CB /* Assets.xcassets in Resources */,
+				04A1C755290FB4AD0046F68B /* wav2vec2.ptl in Resources */,
 				26B208DF26127FAD00B597CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79B5B3640C6057E710A9AC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26B208D026127FAD00B597CB /* Sources */ = {
@@ -324,6 +358,7 @@
 		};
 		26B208E926127FAE00B597CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4BB47FC8400A6D2D4082F7 /* Pods-SpeechRecognition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +383,7 @@
 		};
 		26B208EA26127FAE00B597CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E65A71AAFE174BFB0F15F8 /* Pods-SpeechRecognition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

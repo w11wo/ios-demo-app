@@ -6,7 +6,9 @@
 
 
 #import "InferenceModule.h"
-#import <Libtorch-Lite/Libtorch-Lite.h>
+#include <torch/csrc/jit/mobile/import.h>
+#include <torch/csrc/jit/mobile/module.h>
+#include <torch/script.h>
 #import <AVFoundation/AVAudioRecorder.h>
 #import <AVFoundation/AVAudioSettings.h>
 #import <AVFoundation/AVAudioSession.h>

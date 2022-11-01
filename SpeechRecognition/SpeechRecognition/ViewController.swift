@@ -28,12 +28,18 @@ class ViewController: UIViewController, AVAudioRecorderDelegate  {
     private let SAMPLE_RATE = 16000
 
     private lazy var module: InferenceModule = {
-        if let filePath = Bundle.main.path(forResource:
-            "wav2vec2", ofType: "ptl"),
+        let modelName = "wav2vec2"
+        
+        if let filePath = Bundle.main.path(forResource: modelName, ofType: "ptl") {
+        } else {
+            fatalError("Can't find the model file!")
+        }
+        
+        if let filePath = Bundle.main.path(forResource: modelName, ofType: "ptl"),
             let module = InferenceModule(fileAtPath: filePath) {
             return module
         } else {
-            fatalError("Can't find the model file!")
+            fatalError("Can't load TorchModule!")
         }
     }()    
     
